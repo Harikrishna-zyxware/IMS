@@ -1,0 +1,56 @@
+.moveright {
+    float: right;
+}
+
+#display {
+    background: rgb(47, 214, 200);
+    margin: 50px auto;
+    width: 600px;
+    padding: 30px;
+    box-shadow: 10px 10px 5px black;
+}
+
+#display li a {
+    text-decoration: none;
+}
+
+#display a:hover {
+    color: red;
+}
+#display h1 {
+    text-align: center;
+    color: rgb(155, 11, 143);
+}
+
+#date {
+    color: rgb(48, 21, 122);
+}
+
+body {
+    background: rgb(255, 255, 255);
+}
+
+.comment {
+    color: red;
+}
+
+.boxcomment {
+    border: 1px solid green;
+    padding: 5px;
+    margin-top: 10px;
+    width: 400px;
+    height: 400px;
+    overflow: auto;
+}
+
+#loader {
+    z-index: 10;
+}
+
+.moveleft {
+    float:left;
+}
+
+#button_loader {
+    display: inline-block;
+}
